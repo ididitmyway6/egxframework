@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C8CF164-8334-4B12-AC52-147B95E80B14}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Egx</RootNamespace>
+    <AssemblyName>Egx</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EgxBusiness\Casher\AccountTransaction.cs" />
+    <Compile Include="EgxBusiness\Casher\Category.cs" />
+    <Compile Include="EgxBusiness\Casher\Customer.cs" />
+    <Compile Include="EgxBusiness\Casher\DeductionCategory.cs" />
+    <Compile Include="EgxBusiness\Casher\Invoice.cs" />
+    <Compile Include="EgxBusiness\Casher\Location.cs" />
+    <Compile Include="EgxBusiness\Casher\Order.cs" />
+    <Compile Include="EgxBusiness\Casher\OrderDetails.cs" />
+    <Compile Include="EgxBusiness\Casher\Product.cs" />
+    <Compile Include="EgxBusiness\Casher\Shift.cs" />
+    <Compile Include="EgxBusiness\Casher\Stock.cs" />
+    <Compile Include="EgxBusiness\Casher\StockTransaction.cs" />
+    <Compile Include="EgxBusiness\Casher\Supplier.cs" />
+    <Compile Include="EgxBusiness\Casher\SystemUser.cs" />
+    <Compile Include="EgxBusiness\Casher\Transaction.cs" />
+    <Compile Include="EgxBusiness\Clinic\tst.cs" />
+    <Compile Include="EgxBusiness\Clinic\Patient.cs" />
+    <Compile Include="EgxBusiness\Clinic\Visit.cs" />
+    <Compile Include="EgxBusiness\CSV\Companies.cs" />
+    <Compile Include="EgxBusiness\CurrencyInfo.cs" />
+    <Compile Include="EgxBusiness\Date.cs" />
+    <Compile Include="EgxBusiness\EgxObject.cs" />
+    <Compile Include="EgxBusiness\EgxSetting.cs" />
+    <Compile Include="EgxBusiness\EgxValidations.cs" />
+    <Compile Include="EgxBusiness\GL\AccountsTree.cs" />
+    <Compile Include="EgxBusiness\GL\AccountTransaction.cs" />
+    <Compile Include="EgxBusiness\GL\Banks.cs" />
+    <Compile Include="EgxBusiness\GL\Cheques.cs" />
+    <Compile Include="EgxBusiness\GL\Customer.cs" />
+    <Compile Include="EgxBusiness\GL\GeneralTransactions.cs" />
+    <Compile Include="EgxBusiness\GL\GLAccounts.cs" />
+    <Compile Include="EgxBusiness\GL\Inventories.cs" />
+    <Compile Include="EgxBusiness\GL\Journal.cs" />
+    <Compile Include="EgxBusiness\GL\JournalWideView.cs" />
+    <Compile Include="EgxBusiness\GL\Supplier.cs" />
+    <Compile Include="EgxBusiness\GL\TransactionDetails.cs" />
+    <Compile Include="EgxBusiness\GL\Transactions.cs" />
+    <Compile Include="EgxBusiness\GL\TRBBB.cs" />
+    <Compile Include="EgxBusiness\Inventory\AccountN.cs" />
+    <Compile Include="EgxBusiness\Inventory\AccountNature.cs" />
+    <Compile Include="EgxBusiness\Inventory\AccountTransactions.cs" />
+    <Compile Include="EgxBusiness\Inventory\Alerts.cs" />
+    <Compile Include="EgxBusiness\Inventory\AppCode.cs" />
+    <Compile Include="EgxBusiness\Inventory\Batches.cs" />
+    <Compile Include="EgxBusiness\Inventory\Cards.cs" />
+    <Compile Include="EgxBusiness\Inventory\Categ.cs" />
+    <Compile Include="EgxBusiness\Inventory\Issues.cs" />
+    <Compile Include="EgxBusiness\Inventory\ProductPreview.cs" />
+    <Compile Include="EgxBusiness\Inventory\GCM.cs" />
+    <Compile Include="EgxBusiness\Inventory\IRequestDetails.cs" />
+    <Compile Include="EgxBusiness\Inventory\IUser.cs" />
+    <Compile Include="EgxBusiness\Inventory\MerchantCategories.cs" />
+    <Compile Include="EgxBusiness\Inventory\MerchantMedia.cs" />
+    <Compile Include="EgxBusiness\Inventory\NewsFeed.cs" />
+    <Compile Include="EgxBusiness\Inventory\NewsFeedComments.cs" />
+    <Compile Include="EgxBusiness\Inventory\NMGiftsVM.cs" />
+    <Compile Include="EgxBusiness\Inventory\Gifts.cs" />
+    <Compile Include="EgxBusiness\Inventory\NMMyProductsVM.cs" />
+    <Compile Include="EgxBusiness\Inventory\Media.cs" />
+    <Compile Include="EgxBusiness\Inventory\NMSmart.cs" />
+    <Compile Include="EgxBusiness\Inventory\OrderDetails.cs" />
+    <Compile Include="EgxBusiness\Inventory\CRMFinanceModel.cs" />
+    <Compile Include="EgxBusiness\Inventory\EgxProduct.cs" />
+    <Compile Include="EgxBusiness\Inventory\EgxCustomer.cs" />
+    <Compile Include="EgxBusiness\Inventory\EgxSupplier.cs" />
+    <Compile Include="EgxBusiness\Inventory\EgxTransactions.cs" />
+    <Compile Include="EgxBusiness\Inventory\InventorySites.cs" />
+    <Compile Include="EgxBusiness\Inventory\Invoices.cs" />
+    <Compile Include="EgxBusiness\Inventory\ItemsControlller.cs" />
+    <Compile Include="EgxBusiness\Inventory\ItemsStock.cs" />
+    <Compile Include="EgxBusiness\Inventory\ItemsTransactions.cs" />
+    <Compile Include="EgxBusiness\Inventory\NM.cs" />
+    <Compile Include="EgxBusiness\Inventory\NM_CustomerProducts.cs" />
+    <Compile Include="EgxBusiness\Inventory\NM_Transactions.cs" />
+    <Compile Include="EgxBusiness\Inventory\Orders.cs" />
+    <Compile Include="EgxBusiness\Inventory\ProductResources.cs" />
+    <Compile Include="EgxBusiness\Inventory\RequestComments.cs" />
+    <Compile Include="EgxBusiness\Inventory\RequestDetails.cs" />
+    <Compile Include="EgxBusiness\Inventory\RequstVM.cs" />
+    <Compile Include="EgxBusiness\Inventory\SupplierDiscounts.cs" />
+    <Compile Include="EgxBusiness\Inventory\SystemConstants.cs" />
+    <Compile Include="EgxBusiness\Inventory\SystemConstats.cs" />
+    <Compile Include="EgxBusiness\Inventory\SystemSetting.cs" />
+    <Compile Include="EgxBusiness\Inventory\SystemTracking.cs" />
+    <Compile Include="EgxBusiness\Inventory\Tags.cs" />
+    <Compile Include="EgxBusiness\Inventory\Test.cs" />
+    <Compile Include="EgxBusiness\Inventory\Transactions.cs" />
+    <Compile Include="EgxBusiness\Inventory\TransactionViewModel.cs" />
+    <Compile Include="EgxBusiness\Inventory\Unions.cs" />
+    <Compile Include="EgxBusiness\Inventory\UnionsTransactions.cs" />
+    <Compile Include="EgxBusiness\Inventory\User.cs" />
+    <Compile Include="EgxBusiness\Inventory\UserTags.cs" />
+    <Compile Include="EgxBusiness\SMS\AbsenceStates.cs" />
+    <Compile Include="EgxBusiness\SMS\AccountTransactions.cs" />
+    <Compile Include="EgxBusiness\SMS\AppCodes.cs" />
+    <Compile Include="EgxBusiness\SMS\Attendance.cs" />
+    <Compile Include="EgxBusiness\SMS\AttendanceVM.cs" />
+    <Compile Include="EgxBusiness\SMS\CourseCenterModule\CCStudentEvaluation.cs" />
+    <Compile Include="EgxBusiness\SMS\Classes.cs" />
+    <Compile Include="EgxBusiness\SMS\ClassGrades.cs" />
+    <Compile Include="EgxBusiness\SMS\CourseCenterModule\GeneralTransactions.cs" />
+    <Compile Include="EgxBusiness\SMS\CourseCenterModule\RptFees.cs" />
+    <Compile Include="EgxBusiness\SMS\StudentsEventView.cs" />
+    <Compile Include="EgxBusiness\SMS\EventInstructors.cs" />
+    <Compile Include="EgxBusiness\SMS\Events.cs" />
+    <Compile Include="EgxBusiness\SMS\EventsStudent.cs" />
+    <Compile Include="EgxBusiness\SMS\Exams.cs" />
+    <Compile Include="EgxBusiness\SMS\Finance\AccountTransactions.cs" />
+    <Compile Include="EgxBusiness\SMS\Finance\CRMFinanceModel.cs" />
+    <Compile Include="EgxBusiness\SMS\Finance\Invoices.cs" />
+    <Compile Include="EgxBusiness\SMS\Finance\OrderDetails.cs" />
+    <Compile Include="EgxBusiness\SMS\Finance\Orders.cs" />
+    <Compile Include="EgxBusiness\SMS\Finance\TransactionViewModel.cs" />
+    <Compile Include="EgxBusiness\SMS\IPerson.cs" />
+    <Compile Include="EgxBusiness\SMS\Periodic.cs" />
+    <Compile Include="EgxBusiness\SMS\Students.cs" />
+    <Compile Include="EgxBusiness\SMS\StudentTransactions.cs" />
+    <Compile Include="EgxBusiness\SMS\Subjects.cs" />
+    <Compile Include="EgxBusiness\SMS\SystemConstants.cs" />
+    <Compile Include="EgxBusiness\SMS\SystemSetting.cs" />
+    <Compile Include="EgxBusiness\SMS\Teachers.cs" />
+    <Compile Include="EgxBusiness\SMS\User.cs" />
+    <Compile Include="EgxBusiness\SystemMessage.cs" />
+    <Compile Include="EgxBusiness\SystemNotes.cs" />
+    <Compile Include="EgxBusiness\ToWord.cs" />
+    <Compile Include="EgxBusiness\UnitTest.cs" />
+    <Compile Include="EgxControl\CustomEntryForm.cs" />
+    <Compile Include="EgxControl\DBConnection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EgxControl\DBConnection.Designer.cs">
+      <DependentUpon>DBConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxBusinessField.cs" />
+    <Compile Include="EgxControl\EgxCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxCheckBox.Designer.cs">
+      <DependentUpon>EgxCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxClick.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxClick.Designer.cs">
+      <DependentUpon>EgxClick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxComboBox.Designer.cs">
+      <DependentUpon>EgxComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxDateText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxDateText.Designer.cs">
+      <DependentUpon>EgxDateText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxDialog.Designer.cs">
+      <DependentUpon>EgxDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxEntryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxEntryForm.Designer.cs">
+      <DependentUpon>EgxEntryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxFoldersPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxForm.Designer.cs">
+      <DependentUpon>EgxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxGridView.Designer.cs">
+      <DependentUpon>EgxGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxGridViewWrapper.cs" />
+    <Compile Include="EgxControl\EgxIcon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxIcon.Designer.cs">
+      <DependentUpon>EgxIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxLabelLokkup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxLookup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxLookup.Designer.cs">
+      <DependentUpon>EgxLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxLookupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxLookupForm.Designer.cs">
+      <DependentUpon>EgxLookupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxNavigator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxNavigator.Designer.cs">
+      <DependentUpon>EgxNavigator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxPanel.Designer.cs">
+      <DependentUpon>EgxPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxQueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxQueryForm.Designer.cs">
+      <DependentUpon>EgxQueryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxTextBox.Designer.cs">
+      <DependentUpon>EgxTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxTextLookup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxTextLookup.Designer.cs">
+      <DependentUpon>EgxTextLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\EgxToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxValidations.cs" />
+    <Compile Include="EgxControl\EgxWink.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EgxControl\EgxWink.Designer.cs">
+      <DependentUpon>EgxWink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\ErrorProvide.cs" />
+    <Compile Include="EgxControl\ExgCalender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EgxControl\ExgCalender.designer.cs">
+      <DependentUpon>ExgCalender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\frmReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EgxControl\frmReports.Designer.cs">
+      <DependentUpon>frmReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\IEgxEntryForm.cs" />
+    <Compile Include="EgxControl\SelectedFieldsEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EgxControl\SelectedFieldsEditor.Designer.cs">
+      <DependentUpon>SelectedFieldsEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EgxControl\UFW.cs" />
+    <Compile Include="EgxDataAccess\ActionResult.cs" />
+    <Compile Include="EgxDataAccess\DataAccess.cs" />
+    <Compile Include="EgxDataAccess\DBConfig.cs" />
+    <Compile Include="EgxDataAccess\GExtMthds.cs" />
+    <Compile Include="EgxDataAccess\GMthds.cs" />
+    <Compile Include="EgxDataAccess\G_Properties.cs" />
+    <Compile Include="EgxDataAccess\SystemQuery.cs" />
+    <Compile Include="EgxEventArgs.cs" />
+    <Compile Include="EgxExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EgxControl\DBConnection.resx">
+      <DependentUpon>DBConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EgxControl\EgxDialog.resx">
+      <DependentUpon>EgxDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EgxControl\EgxEntryForm.resx">
+      <DependentUpon>EgxEntryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EgxControl\EgxForm.resx">
+      <DependentUpon>EgxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EgxControl\EgxIcon.resx">
+      <DependentUpon>EgxIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EgxControl\EgxLookupForm.resx">
+      <DependentUpon>EgxLookupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EgxControl\EgxQueryForm.resx">
+      <DependentUpon>EgxQueryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EgxControl\ExgCalender.resx">
+      <DependentUpon>ExgCalender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EgxControl\frmReports.resx">
+      <DependentUpon>frmReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EgxControl\SelectedFieldsEditor.resx">
+      <DependentUpon>SelectedFieldsEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Icons\Button-Add-blue-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Close-Delete-Alt-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Minimize-box-blue-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Button-Add-green-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Button-Add-blue-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Button-Add-green-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Save-Diskette-Floppy-Disk-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Save-Download-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Delete-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Delete-32 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Setup64.png" />
+    <None Include="Icons\Test64.png" />
+    <None Include="Icons\Setup48.png" />
+    <None Include="Icons\Setting.png" />
+    <None Include="Icons\search.png" />
+    <None Include="Icons\undo.png" />
+    <None Include="Icons\20130821054829803_easyicon_net_32.png" />
+    <None Include="Icons\20130821054822638_easyicon_net_32.png" />
+    <None Include="Icons\2013082105543793_easyicon_net_32.png" />
+    <None Include="Icons\20130821055433403_easyicon_net_32.png" />
+    <None Include="Icons\20130823070240688_easyicon_net_32.png" />
+    <None Include="Icons\Execute.png" />
+    <Content Include="EgxBusiness\Inventory\LocalINVDB.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EgxSystemConfig.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Icons\find_black.png" />
+    <Content Include="Icons\find_orange.png" />
+    <Content Include="Icons\first_blue.png" />
+    <Content Include="Icons\first_white.png" />
+    <Content Include="Icons\fndCurser.png" />
+    <Content Include="Icons\last_blue.png" />
+    <Content Include="Icons\last_white.png" />
+    <Content Include="Icons\next_blue.png" />
+    <Content Include="Icons\next_white.png" />
+    <Content Include="Icons\prev_blue.png" />
+    <Content Include="Icons\prev_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EgxBusiness\HR\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

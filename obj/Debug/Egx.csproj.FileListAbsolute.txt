@@ -1,0 +1,60 @@
+E:\Projects\Egx\Egx\Egx\bin\Debug\Egx.dll
+E:\Projects\Egx\Egx\Egx\bin\Debug\Egx.pdb
+E:\Projects\Egx\Egx\Egx\obj\Debug\Egx.csprojResolveAssemblyReference.cache
+E:\Projects\Egx\Egx\Egx\obj\Debug\Egx.dll
+E:\Projects\Egx\Egx\Egx\obj\Debug\Egx.pdb
+E:\Projects\Egx\Egx\Egx\obj\Debug\Egx.csproj.GenerateResource.Cache
+E:\Projects\Egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxForm.resources
+E:\Projects\Egx\Egx\Egx\obj\Debug\Egx.Properties.Resources.resources
+E:\Projects\Egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxDialog.resources
+E:\Projects\Egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxEntryForm.resources
+F:\MyWork\Ziad\Proj\Egx\Egx\bin\Debug\Egx.dll
+F:\MyWork\Ziad\Proj\Egx\Egx\bin\Debug\Egx.pdb
+F:\MyWork\Ziad\Proj\Egx\Egx\obj\Debug\Egx.EgxControl.EgxDialog.resources
+F:\MyWork\Ziad\Proj\Egx\Egx\obj\Debug\Egx.EgxControl.EgxEntryForm.resources
+F:\MyWork\Ziad\Proj\Egx\Egx\obj\Debug\Egx.EgxControl.EgxForm.resources
+F:\MyWork\Ziad\Proj\Egx\Egx\obj\Debug\Egx.EgxControl.EgxCalender.resources
+F:\MyWork\Ziad\Proj\Egx\Egx\obj\Debug\Egx.Properties.Resources.resources
+F:\MyWork\Ziad\Proj\Egx\Egx\obj\Debug\Egx.csproj.GenerateResource.Cache
+F:\MyWork\Ziad\Proj\Egx\Egx\obj\Debug\Egx.dll
+F:\MyWork\Ziad\Proj\Egx\Egx\obj\Debug\Egx.pdb
+F:\MyWork\Ziad\Proj\Egx\Egx\obj\Debug\Egx.csprojResolveAssemblyReference.cache
+F:\egx\Egx\Egx\bin\Debug\EgxBusiness\Inventory\LocalINVDB.sdf
+F:\egx\Egx\Egx\bin\Debug\Egx.dll
+F:\egx\Egx\Egx\bin\Debug\Egx.pdb
+F:\egx\Egx\Egx\obj\Debug\Egx.csprojResolveAssemblyReference.cache
+F:\egx\Egx\Egx\obj\Debug\Egx.EgxControl.DBConnection.resources
+F:\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxDialog.resources
+F:\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxEntryForm.resources
+F:\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxForm.resources
+F:\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxIcon.resources
+F:\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxLookupForm.resources
+F:\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxQueryForm.resources
+F:\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxCalender.resources
+F:\egx\Egx\Egx\obj\Debug\Egx.EgxControl.frmReports.resources
+F:\egx\Egx\Egx\obj\Debug\Egx.EgxControl.SelectedFieldsEditor.resources
+F:\egx\Egx\Egx\obj\Debug\Egx.Properties.Resources.resources
+F:\egx\Egx\Egx\obj\Debug\Egx.csproj.GenerateResource.Cache
+F:\egx\Egx\Egx\obj\Debug\Egx.dll
+F:\egx\Egx\Egx\obj\Debug\Egx.pdb
+D:\work\My Projects Source Code\egx\Egx\Egx\bin\Debug\EgxBusiness\Inventory\LocalINVDB.sdf
+D:\work\My Projects Source Code\egx\Egx\Egx\bin\Debug\Egx.dll
+D:\work\My Projects Source Code\egx\Egx\Egx\bin\Debug\Egx.pdb
+D:\work\My Projects Source Code\egx\Egx\Egx\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\work\My Projects Source Code\egx\Egx\Egx\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.csprojAssemblyReference.cache
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.EgxControl.DBConnection.resources
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxDialog.resources
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxEntryForm.resources
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxForm.resources
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxIcon.resources
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxLookupForm.resources
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxQueryForm.resources
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.EgxControl.EgxCalender.resources
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.EgxControl.frmReports.resources
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.EgxControl.SelectedFieldsEditor.resources
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.Properties.Resources.resources
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.csproj.GenerateResource.cache
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.csproj.CopyComplete
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.dll
+D:\work\My Projects Source Code\egx\Egx\Egx\obj\Debug\Egx.pdb

@@ -1,0 +1,17 @@
+F:\egx\Egx\Egx\bin\Release\EgxBusiness\Inventory\LocalINVDB.sdf
+F:\egx\Egx\Egx\bin\Release\Egx.dll
+F:\egx\Egx\Egx\bin\Release\Egx.pdb
+F:\egx\Egx\Egx\obj\Release\Egx.EgxControl.DBConnection.resources
+F:\egx\Egx\Egx\obj\Release\Egx.EgxControl.EgxDialog.resources
+F:\egx\Egx\Egx\obj\Release\Egx.EgxControl.EgxEntryForm.resources
+F:\egx\Egx\Egx\obj\Release\Egx.EgxControl.EgxForm.resources
+F:\egx\Egx\Egx\obj\Release\Egx.EgxControl.EgxIcon.resources
+F:\egx\Egx\Egx\obj\Release\Egx.EgxControl.EgxLookupForm.resources
+F:\egx\Egx\Egx\obj\Release\Egx.EgxControl.EgxQueryForm.resources
+F:\egx\Egx\Egx\obj\Release\Egx.EgxControl.EgxCalender.resources
+F:\egx\Egx\Egx\obj\Release\Egx.EgxControl.frmReports.resources
+F:\egx\Egx\Egx\obj\Release\Egx.EgxControl.SelectedFieldsEditor.resources
+F:\egx\Egx\Egx\obj\Release\Egx.Properties.Resources.resources
+F:\egx\Egx\Egx\obj\Release\Egx.csproj.GenerateResource.Cache
+F:\egx\Egx\Egx\obj\Release\Egx.dll
+F:\egx\Egx\Egx\obj\Release\Egx.pdb
